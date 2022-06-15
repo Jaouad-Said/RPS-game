@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Josefin Sans, sans-serif;
+}
+
+body {
+  background-color: rgb(219, 219, 219);
+}
+
+header {
+  background: #24272e;
+  padding: 20px;
+}
+
+header > h1 {
+  color: azure;
+  text-align: center;
+}
+
+.score-board {
+  background: #24272e;
+  margin: 20px auto;
+  border: 8px solid #24272e;
+  width: 280px;
+  color: #d6d6d6;
+  font-size: 46px;
+  font-weight: bold;
+  border-radius: 6px;
+  text-align: center;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.badge {
+  background: #e25840;
+  color: #24272e;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  border: none;
+  border-radius: 5px;
+}
+
+#user-label {
+  position: absolute;
+  top: 25px;
+  left: -30px;
+}
+
+#comp-label {
+  position: absolute;
+  top: 25px;
+  right: -30px;
+}
+
+.result {
+  font-size: 40px;
+  color: #24272e;
+}
+
+.result > p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.choices {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.choice {
+  display: inline-block;
+  border: 7px solid #24272e;
+  border-radius: 10%;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 20px;
+  transition: all 0.6s ease;
+}
+
+.choice:hover {
+  background: #24272e;
+}
+
+img {
+  width: 160px;
+  height: 160px;
+}
+
+#message {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.green {
+  border: 8px solid rgba(27, 133, 0, 0.726);
+  box-shadow: 0 0 10px rgb(0, 75, 0);
+}
+
+.red {
+  border: 8px solid rgb(255, 4, 4);
+  box-shadow: 0 0 10px rgb(179, 2, 2);
+}
+
+.grey {
+  border: 8px solid rgb(117, 124, 115);
+  box-shadow: 0 0 10px rgb(87, 87, 87);
+}
